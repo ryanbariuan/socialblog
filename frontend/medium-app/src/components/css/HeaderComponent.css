@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(66, 66, 146);
+  /* background: linear-gradient(to right, #424292, whitesmoke); */
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* #logoContainer {
+  border: 1px solid black;
+} */
+
+#logoContainer h2 {
+  color: whitesmoke;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#logoContainer h2 a:any-link {
+  color: whitesmoke;
+}
+
+nav {
+  background-color: rgb(66, 66, 146);
+  width: 100%;
+  position: absolute;
+  display: none;
+  /* border: 1px solid red; */
+  top: 100%;
+  left: 0;
+}
+
+nav ul {
+  list-style: none;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 500;
+}
+
+nav li {
+  margin-bottom: 1em;
+  margin-left: 1em;
+  color: lightgray;
+  /* border: 1px solid black; */
+}
+
+nav a,
+nav a:any-link {
+  color: lightgray;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.navToggleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  /* border: 1px solid red; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navToggleIcon span,
+.navToggleIcon span::before,
+.navToggleIcon span::after {
+  display: block;
+  background-color: whitesmoke;
+  height: 2px;
+  width: 2em;
+  position: relative;
+}
+
+.navToggleIcon span::before,
+.navToggleIcon span::after {
+  content: '';
+  position: absolute;
+}
+
+.navToggleIcon span::before {
+  bottom: 8px;
+}
+
+.navToggleIcon span::after {
+  top: 8px;
+}
+
+.navToggle {
+  display: none;
+}
+
+.navToggle:checked ~ nav {
+  display: block;
+}
+
+nav li button {
+  background-color: transparent;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-family: Arial Narrow;
+  font-size: 1em;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+nav li button:hover {
+  color: #429292;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navToggleIcon {
+    display: none;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #logoContainer {
+    /* border: 1px solid black; */
+    margin-left: 1em;
+  }
+  nav {
+    /* border: 1px solid red; */
+    background: transparent;
+    position: static;
+    display: block;
+    width: 40%;
+    margin-right: 1em;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+
+  nav li {
+    /* border: 1px solid yellow; */
+    margin: 7px 0 0;
+  }
+
+  nav li button {
+    background-color: #429292;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial Narrow;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  nav li button:hover {
+    background-color: #6a4292;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navToggleIcon {
+    display: none;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #logoContainer {
+    /* border: 1px solid black; */
+    margin-left: 2em;
+  }
+  nav {
+    /* border: 1px solid red; */
+    background: transparent;
+    position: static;
+    display: block;
+    width: 30%;
+    margin-right: 2em;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+
+  nav li {
+    /* border: 1px solid yellow; */
+    margin: 7px 0 0;
+  }
+
+  nav li button {
+    background-color: #429292;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial Narrow;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  nav li button:hover {
+    background-color: #6a4292;
+    color: white;
+  }
+}

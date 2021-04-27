@@ -1,0 +1,93 @@
+.container {
+  /* border: 1px solid black; */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h-style {
+  text-align: center;
+  font-family: Arial Narrow;
+  text-transform: uppercase;
+  color: rgb(85, 80, 80);
+}
+
+.label-style {
+  font-family: Arial Narrow;
+  font-weight: 600;
+  color: rgb(85, 80, 80);
+}
+
+.flexBox-column-style {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.btn-style {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial Narrow;
+  font-weight: 600;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(66, 66, 146);
+  cursor: pointer;
+}
+
+.btn-style:hover {
+  background-color: rgb(117, 117, 189);
+}
+
+.btn-del-style {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial Narrow;
+  font-weight: 600;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(187, 47, 47);
+  cursor: pointer;
+}
+
+.btn-del-style:hover {
+  background-color: rgb(230, 83, 83);
+}
+
+p {
+  font-family: Arial Narrow;
+}
+
+a:any-link {
+  text-decoration: none;
+  font-family: Arial Narrow;
+}
+
+.inputText-style {
+  border: none;
+  background-color: whitesmoke;
+  padding: 5px 3px;
+  font-family: Arial Narrow;
+}
+
+.textArea-style {
+  overflow: auto;
+  outline: none;
+  border: none;
+  background-color: whitesmoke;
+  font-family: Arial Narrow;
+  padding: 5px 10px;
+  resize: none;
+}
+
+.errorMsg-style {
+  color: red;
+}
+
+.successMsg-style {
+  color: green;
+}

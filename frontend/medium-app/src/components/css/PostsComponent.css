@@ -1,0 +1,130 @@
+.postContainer {
+  margin-top: 25px;
+}
+
+.postContainer h1 {
+  padding: 10px 0;
+}
+
+.postContainer .postWrapper {
+  margin-top: 25px;
+}
+
+.postContainer .postWrapper .userPostContainer {
+  border-top: 1px solid lightgrey;
+  padding: 8px 0;
+}
+
+.userPostContainer .userPostTitle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.userPostContainer .userPostTitle span {
+  color: rgb(85, 80, 80);
+  font-family: Arial Narrow;
+}
+
+.postContainer .postWrapper .userPostContainer h4 {
+  text-align: left;
+  padding: 3px 0;
+  color: rgb(66, 66, 146);
+}
+
+.userPostContainer p {
+  font-family: Arial Narrow;
+  font-size: 1em;
+}
+
+.userPostContainer .actionPostBox {
+  margin-top: 5px;
+  /* border: 1px solid red; */
+}
+
+.userPostContainer .actionPostBox .toggleSpanComment {
+  color: rgb(85, 80, 80);
+  font-family: Arial Narrow;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.userPostContainer .actionPostBox .commentForm {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 15px;
+  margin-left: 15px;
+  border-left: 3px solid #429292;
+}
+
+.userPostContainer .actionPostBox .commentForm label {
+  margin: 3px 0;
+}
+
+.userPostContainer .actionPostBox .commentForm textarea {
+  border: 1px solid lightgrey;
+  background-color: white;
+  width: 80%;
+  margin: 3px 0;
+}
+
+.userPostContainer .actionPostBox .commentForm button {
+  margin: 3px 0;
+  width: 40%;
+}
+
+.userPostContainer .actionPostBox .commentForm span {
+  font-family: Arial Narrow;
+}
+
+.commentForm .commentWrapper div {
+  margin-bottom: 5px;
+  border-left: 3px solid #429292;
+  background-color: white;
+  padding: 10px;
+}
+
+.commentForm .commentWrapper div p {
+  padding-left: 5px;
+  text-align: left;
+}
+
+.commentForm .commentWrapper div span {
+  color: rgb(66, 66, 146);
+}
+
+.userPostContainer .actionPostBox .likeAndCommentBox .spanLike {
+  font-family: Arial Narrow;
+  color: rgb(85, 80, 80);
+}
+
+.userPostContainer .actionPostBox .likeAndCommentBox .spanLike button {
+  margin-right: 5px;
+  background-color: transparent;
+  padding: 2px 3px;
+  cursor: pointer;
+  color: rgb(66, 66, 146);
+  border: 1px solid rgb(66, 66, 146);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .userPostContainer .actionPostBox .commentForm textarea {
+    width: 50%;
+  }
+
+  .userPostContainer .actionPostBox .commentForm button {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .userPostContainer .actionPostBox .commentForm textarea {
+    width: 50%;
+  }
+
+  .userPostContainer .actionPostBox .commentForm button {
+    width: 20%;
+  }
+}

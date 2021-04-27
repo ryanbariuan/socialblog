@@ -1,0 +1,64 @@
+.registerContainer {
+  margin-top: 50px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+#registerForm {
+  margin-top: 10px;
+}
+
+#registerForm span {
+  font-family: Arial Narrow;
+  margin: 3px;
+}
+
+#registerForm label,
+#registerForm input {
+  margin: 3px;
+}
+
+#registerForm #signUpBtn {
+  margin: 15px auto;
+  width: 50%;
+}
+
+.registerContainer p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.registerContainer p a {
+  color: rgb(66, 66, 146);
+}
+
+.registerContainer p a:hover {
+  color: rgb(117, 117, 189);
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .registerContainer {
+    margin-top: 80px;
+  }
+  #registerForm {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .registerContainer {
+    margin-top: 80px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #registerForm {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

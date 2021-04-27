@@ -1,0 +1,64 @@
+.loginContainer {
+  margin-top: 50px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+#loginForm {
+  margin-top: 10px;
+}
+
+#loginForm span {
+  font-family: Arial Narrow;
+  margin: 3px;
+}
+
+#loginForm label,
+#loginForm input {
+  margin: 3px;
+}
+
+#loginForm #loginBtn {
+  margin: 15px auto;
+  width: 50%;
+}
+
+.loginContainer p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.loginContainer p a {
+  color: rgb(66, 66, 146);
+}
+
+.loginContainer p a:hover {
+  color: rgb(117, 117, 189);
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .loginContainer {
+    margin-top: 80px;
+  }
+  #loginForm {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .loginContainer {
+    margin-top: 80px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #loginForm {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

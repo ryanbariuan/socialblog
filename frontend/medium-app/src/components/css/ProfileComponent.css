@@ -1,0 +1,131 @@
+.profileContainer {
+  margin-top: 10px;
+  /* border: 1px solid black; */
+}
+
+.manageContainer {
+  margin-top: 10px;
+}
+
+.showFormWrapper {
+  margin-top: 10px;
+}
+
+.showBtnWrapper {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.addPostForm {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.addPostForm label {
+  font-size: 14px;
+}
+
+.addPostForm label,
+.addPostForm input,
+.addPostForm textarea {
+  margin: 3px;
+}
+
+.addPostForm span {
+  font-family: Arial Narrow;
+  margin: 3px;
+}
+
+.showFormWrapper .actionBox {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.showFormWrapper .actionBox button {
+  margin: 0 5px;
+}
+
+.profileContainer .myPostsContainer {
+  margin-top: 15px;
+  border-top: 1px solid lightgray;
+  padding: 15px 0;
+}
+
+.profileContainer .myPostsContainer p {
+  margin-top: 10px;
+  text-align: center;
+  color: lightgray;
+}
+
+.postsWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.postsWrapper .myPostContainer {
+  margin-top: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px;
+}
+
+.postsWrapper .myPostContainer h4 {
+  text-transform: none;
+}
+
+/* .myPostContainer .myPostContent p {
+  color: rgb(85, 80, 80);
+  text-align: justify;
+} */
+
+.postsWrapper .myPostContainer .managePostBox {
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .postsWrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .postsWrapper .myPostContainer {
+    width: 30%;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .postsWrapper .myPostContainer .managePostBox {
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .postsWrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .postsWrapper .myPostContainer {
+    width: 30%;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .postsWrapper .myPostContainer .managePostBox {
+    margin: 10px 0;
+  }
+}

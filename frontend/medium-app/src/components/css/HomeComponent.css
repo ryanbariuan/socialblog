@@ -1,0 +1,45 @@
+.homeContainer {
+  margin-top: 10vw;
+  background-color: white;
+  padding: 10%;
+}
+
+.homeContainer h1 {
+  text-align: center;
+  font-family: Arial Narrow;
+  color: rgb(66, 66, 146);
+}
+
+.introContainer {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.introContainer p {
+  text-align: left;
+}
+
+.introContainer span {
+  margin-top: 15px;
+}
+
+.introContainer span a:any-link {
+  color: rgb(66, 66, 146);
+  font-family: Arial Narrow;
+  font-weight: 600;
+}
+
+.introContainer span a {
+  margin-top: 15px;
+  padding: 3px 8px;
+  color: rgb(66, 66, 146);
+  border: 1px solid rgb(66, 66, 146);
+  border-radius: 15px;
+}
+
+.introContainer span a:hover {
+  color: white;
+  background-color: #6a4292;
+  border: 1px solid rgb(66, 66, 146);
+}
