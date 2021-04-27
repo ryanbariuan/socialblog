@@ -46,6 +46,12 @@ class App extends React.Component{
                   </Helmet>
                   <PostsComponent/>
                 </Route>
+                <Route exact path="/">
+                  <Helmet>
+                    <title>SocialBlog App | Home</title>
+                  </Helmet>
+                  <HomeComponent/>
+                </Route>
               </main>
             </>
           )
